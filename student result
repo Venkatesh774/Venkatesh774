@@ -1,0 +1,26 @@
+#program to generate student result whether pass or fail
+sno=int(input('enter student number:'))
+sname=input('enter student name:')
+sgroup=input('enter group name:')
+s1=int(input('maths marks:'))
+s2=int(input('electronics marks:'))
+s3=int(input('computers marks:'))
+s4=int(input('telugu marks:'))
+s5=int(input('english marks:'))
+s6=int(input('environment marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>91:
+      print('o-grade')
+elif avg>=81:
+      print('a-grade')
+elif avg>=71:
+     print('B-grade')
+elif avg>=61:
+     print('C-grade')
+elif avg>=51:
+     print('D-grade')
+elif avg>=41:
+     print('pass')
+else:
+     print('fail')
