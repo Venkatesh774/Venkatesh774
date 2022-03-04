@@ -1,0 +1,13 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l.append(x)
+res=[]
+for i in l:
+    if i not in res:
+        res.append(i)
+a=len(l)
+b=len(res)
+count=a-b
+print(count)
